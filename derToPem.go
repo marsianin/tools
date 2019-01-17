@@ -12,7 +12,7 @@ import (
 
 var (
 	fileInOpt = flag.String("i", "pk.der", "PK file in DER(binary format)")
-	fileOutOpt   = flag.String("o", "pk.pem", "PK file in PEM(binary format)")
+	fileOutOpt   = flag.String("o", "pk.pem", "PK file in PEM(base64 format)")
 )
 
 func main()  {
